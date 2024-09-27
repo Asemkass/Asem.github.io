@@ -1,0 +1,113 @@
+body {
+    background-color: #B7E0FF;
+}
+
+h1, h2, p {
+    color: #E78F81;
+}
+
+#about {
+    background: #FFF5CD;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+#about img {
+    border: 5px solid #E78F81;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#about h1 {
+    font-size: 2.5rem;
+    color: #E78F81;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#about p.lead {
+    font-size: 1.3rem;
+    color: black;
+
+}
+
+#about p.description {
+    font-size: 1.1rem;
+    color: black;
+    line-height: 1.8;
+    margin-top: 20px;
+    text-align: justify;
+    text-align: center;
+}
+
+
+.hobby-title {
+    color: #E78F81;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.hobby-description {
+    color: black;
+    font-size: 1.3rem;
+    line-height: 1.8;
+    margin: 15px 0;
+}
+
+#hobbies {
+    background: linear-gradient(135deg, #FFF5CD, #FFCBB3);
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hobby-divider {
+    width: 50%;
+    height: 4px;
+    background-color: #E78F81;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.hobby-icon {
+    color: #E78F81;
+    font-size: 2rem;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+.col-md-4:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+.navbar {
+    background-color: #FFF5CD;
+}
+
+.nav-link {
+    color: #000000;
+}
+
+.nav-link:hover {
+    color: #E78F81;
+}
+
+.card {
+    border: none;
+}
+
+.card-title {
+    color: #B7E0FF;
+}
+
+footer {
+    background-color: #FFCBB3;
+}
+
+footer a {
+    color: #E78F81;
+}
